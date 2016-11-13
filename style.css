@@ -11,7 +11,7 @@ h1 {
     font-family:Arial;
     color:#fff;
     font-weight:bold;
-    font-size:45px;
+    font-size:40px;
     margin: 0;
     spacing:5px;
 }
@@ -20,6 +20,7 @@ h2 {
     padding-left:180px;
     font-family:Arial;
     font-size:25px;
+    color:#39394e;
 }
 
 img {
@@ -29,11 +30,29 @@ img {
 h3{
     float:right;
     font-size:30px;
-    color:black;
+    color:#39394e;
     font-weight:bold;
     margin-top:-100px;
     padding-right:275px;
 }
+
+p {
+    float:right;
+    font-size:20px;
+    color:#39394e;
+    margin-top:-70px;
+    padding-right:295px;
+    line-height:50px;
+}
+
+.bow {
+    float:right;
+    margin-top: -170px;
+    margin-right: 85px;
+}
+
+
+
 
 table {
     float:right;
@@ -59,11 +78,53 @@ input text {
     height:30px;
     width:175px;
     spacing:10px;
-
 }
 
 input Button {
     font-family:Arial;
     color:black;
     background-color:blue;
+}
+
+.first input{
+  border-radius: 5px;
+  width:185px;
+  height:30px;
+  border:1px solid;
+  border-color: gray;
+  background-color: #fff;
+  margin: 7px 8px 10px 10px;
+  padding-left: 10px;
+  color: #858789;
+  font-size: 20px;
+  }
+.second input {
+  border-radius: 5px;
+  width:400px;
+  height:30px;
+  border:1px solid;
+  border-color: gray;
+  background-color: #fff;
+  padding-left: 10px;
+  color: #858789;
+  font-size: 20px;
+  margin:10px 0 5px 10px;
+  }
+
+.third input{
+  background-color:  #679c24;
+  color:white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  height:3em;
+  width:14em;
+  border-radius: 5px;
+  margin:25px 100px 0 100px;
+}
+.third p {
+  font-size: 20px;
+  color:gray;
+  padding-right:350px;
+  margin-top: 10px;
 }
